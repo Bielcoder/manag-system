@@ -54,9 +54,18 @@ if(isset($_POST['login'])&&isset($_POST['senha'])){
 			$_SESSION['acesso'] = array($_POST['login'],$_POST['senha']);
 			header('location:../funcionario/index.php');}
 		}
-		if($_POST['login'] != $usuario[0] && $_POST['senha'] != $usuario[1]){
+			if($_POST['login'] != $usuario[0] && $_POST['senha'] != $usuario[1]){
 			echo "<p class='incorreto'>Matrícula ou Senha Inválida!</p>";
-		}
+		}	elseif ($_POST['login'] == $usuario[0] && $_POST['senha'] != $usuario[1]) {
+				echo "<p class='incorreto'>Matrícula ou Senha Inválida!</p>";
+			}
+			elseif ($_POST['login'] != $usuario[0] && $_POST['senha'] == $usuario[1]) {
+				echo "<p class='incorreto'>Matrícula ou Senha Inválida!</p>";
+			}
+			else{
+				echo "<p class='incorreto'>Matrícula ou Senha Inválida!</p>";
+			}
+		
 
 		$sql = mysqli_query($conn,"SELECT * FROM nivelacesso WHERE acesso = 1");
 		while ($correr = mysqli_fetch_array($sql)) {
