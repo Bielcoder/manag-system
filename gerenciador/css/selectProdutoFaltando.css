@@ -1,0 +1,16 @@
+@charset = "utf-8";
+
+div.container-contador{
+			display: flex;
+			justify-content: space-between;
+			margin: 0px;
+			font-size: 15pt;
+			z-index: 9999;
+			position: relative;
+			left: 40px;
+			top: 10px;
+		}
+
+		div.item1{
+			margin: 0px 468px 0px 0px;
+		}

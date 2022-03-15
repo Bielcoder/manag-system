@@ -1,0 +1,44 @@
+Sistema Gerenciador
+--------------------------
+	@Funcionamento@
+
+	Faz o gerenciamento de todos os equipamentos da empresa, que podem ser utilizados por funcionarios ou gerentes.
+	O mesmo atua com o controle de entrada e saida de equipamento,uma vez não devolvido a prazo o sistema notifica.
+	------------------------------------------------------------------------------------------------------------------
+	@Sistema Interno@
+
+	@Admin@
+	Para funcionamento terá que possuir o registro de um funcionario e um produto , na area administrativo,
+	possui o registro de inclusão de produto e de funcionários.
+	Após inserido pelo menos 1 produto e 1 funcionário,
+	passa a funcionar o registro de saida de produtos para ser emprestado!
+	------------------------------------------------------------------------------------------------------------------
+	@Registro-Saida@
+	Para registrar um produto uma vez que emprestado,será informado o nome e matricula,
+	produto a ser emprestado e data de devolução.
+
+	@Registro-Entrada@
+	Para registrar a devolução do produto,deverá ser informado o nome do funcionario e equipamento a ser devolvido! 
+
+
+------------------------------------------------------------------------------------------------------------------------------	
+	@Acessos
+	Apenas para registro de login e senha de acesso da pagina inicial,para entrar no sistema,dividido em funcionario
+	e gerenciador com nivel de acesso.
+-------------------------------------------------------------------------------------------------------------------------------
+	@Tabelas@
+
+	@tabela-sistema-interno
+
+	Ao realizar a instalação , possuirão 3 tabelas de sistema interno: equipamento,funcionario e registro saida.
+	Equipamento: Recebe o registro de equipamentos.
+	Funcionario: Recebe o registro de funcionarios que poderão pegar o equipamento emprestado.
+	Registro-Saida: Recebe o registro de saida do produto,informado quem pegou emprestado, o que pegou emprestado
+	e data de devolução.@
+-------------------------------------------------------------------------------------------------------------------------------
+	@tabela-sistema-externo
+	Dentro do sistema do gerente possui a aba de acessos com botoes de registro e remoção de funcionarios para acesso ao sistema.
+	No sistema phpmyadmin será registrado esses dados em niveis de acesso para login no sistema!.@
+
+
+		

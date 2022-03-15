@@ -1,0 +1,231 @@
+@charset = "UTF-8";
+
+/*Aqui comeca o cabecalho*/
+
+@font-face{
+	font-family: 'logo-navbar';
+	src: url('css/fonts/roboto.ttf');}
+	
+
+div.navbar-topo{
+	background-color: #a0a0e8;
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+
+}
+
+div.item-topo{
+	font-size: 28pt;
+	font-family: 'logo-navbar',sans-serif;
+	text-indent: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+div.btn-navbar-logout{
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	margin: 0px 20px 0px -40px;
+	display: flex;
+	align-items: center;
+	
+}
+
+
+
+/*Aqui começa o corpo*/
+
+div.navbar-lateral-esquerda{
+	background-color: green;
+	width: 50px;
+}
+
+div.corpo-principal{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	position: relative;
+	top: 28px;
+	font-size: 18	pt;
+	margin: 0;
+	padding: 0;
+}
+	
+div.navbar-meio{
+	background-color: green;
+	margin: 0;
+	width: auto;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 80px;
+	color: white;
+	font-size: 20pt;
+}
+
+div.sub-navbar-meio {
+    background-color: green;
+    margin: 0;
+    width: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+    color: white;
+    font-size: 20pt;
+}
+
+
+/*Titulos das divisorias*/
+
+div.item-corpo-1{
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	font-size: 16pt;
+
+	}
+
+div.item-corpo-2{
+	text-align: center;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+	font-size: 16pt;
+}
+
+
+div.item-corpo-3{
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	font-size: 16pt;
+}
+
+div.item-quantidade-1{
+	text-align: center;
+	font-weight: bold;
+}
+
+div.item-quantidade-2{
+	text-align: center;
+	font-weight: bold;
+}
+
+div.item-quantidade-3{
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+
+
+
+
+
+/*Divisorias de conteudo*/
+
+div.item-corpo-1-1 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    width: 274px;
+    border-radius: 12px;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+    position: relative;
+    top: 17px;
+    font-size: 15pt;
+}
+
+div.item-corpo-2-2 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    width: 274px;
+    border-radius: 12px;
+    height: auto;
+    margin: 0px 30px 0px 30px;
+    padding: 0;
+    position: relative;
+    top: 17px;
+
+}
+
+div.item-corpo-3-3 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    width: 274px;
+    border-radius: 12px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 17px;
+   
+}
+
+div.quantidade{
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+	top: 125px;
+}
+
+div.item-quantidade-1-1 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    width: 90px;
+    border-radius: 12px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 17px;
+}
+
+div.item-quantidade-2-2 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    width: 90px;
+    border-radius: 12px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 17px;
+    
+}
+
+
+
+
+/*Aqui começa o rodape*/
+
+div.navbar-rodape{
+	background-color:#004f00;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	z-index: 9999;
+	position: relative;
+	top: 406px;
+	
+}
+
+
+
+div.item-rodape{
+	color: white;
+	opacity: 0.8;
+}
